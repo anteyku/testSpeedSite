@@ -1,0 +1,166 @@
+html,
+body {
+	height: 100%;
+	background: #11131a;
+	font-family: "Gilroy";
+}
+
+.body {
+	.big-wrapper {
+		&::before {
+			content: '';
+			background: radial-gradient(
+				50% 50% at 50% 50%,
+				#003c66 0%,
+				#002743 25.4%,
+				#00121f 57.52%,
+				#000408 83.54%,
+				#000 100%
+			);
+			background-blend-mode: screen;
+			mix-blend-mode: screen;
+			width: 2027px;
+			height: 2027px;
+			position: absolute;
+			top: -800px;
+			right: -1450px;
+			left: unset;
+		}
+	}
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	flex-grow: 1;
+}
+.main {
+	flex: 1 0 auto;
+	position: relative;
+	z-index: 1;
+}
+.footer {
+	flex: 0 0 auto;
+	position: relative;
+	z-index: 1;
+}
+.container {
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.btn {
+	border: 1px solid #46df83;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.3s;
+	&:hover {
+		background: #46df83;
+	}
+}
+
+.title {
+	color: #fff;
+	font-weight: 700;
+
+	@include adaptiv-value("font-size", 64, 36, 1);
+	@include adaptiv-value("line-height", 68, 40, 1);
+	span {
+		color: #40ff8d;
+	}
+}
+
+.btn--green {
+	background: #46df83;
+	color: #fff;
+	font-weight: 700;
+	transition: box-shadow 0.3s;
+	display: flex;
+	&:hover {
+		box-shadow: 0px 0px 10px #46df83;
+	}
+}
+
+.body--popup {
+	overflow: hidden;
+}
+
+.big-wrapper {
+	overflow: hidden !important;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		background: radial-gradient(
+			50% 50% at 50% 50%,
+			#003c66 0%,
+			#002743 25.4%,
+			#00121f 57.52%,
+			#000408 83.54%,
+			#000 100%
+		);
+		background-blend-mode: screen;
+		mix-blend-mode: screen;
+		width: 1244px;
+		height: 1244px;
+		top: -430px;
+	}
+}
+
+@keyframes coinAnimation {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes aboutImgAnimation {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes popupAppear {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+@keyframes scaleAnim {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
