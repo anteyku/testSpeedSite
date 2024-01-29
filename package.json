@@ -10,6 +10,12 @@
     "postinstall": "nuxt prepare",
     "start": "node .output/server/index.mjs"
   },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "less": "^4.2.0",
