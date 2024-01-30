@@ -30,7 +30,7 @@
                             </div>
                             <div class="col-lg-2">
                                 <div class="block__table__top__qrcode">
-                                    <img class="logo__img" src="images/qrcode.png" alt="logo">
+                                    <img class="logo__img" :src="`images/qrcode.png`" alt="logo">
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                                 <div class="block__table__name">Status:</div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="block__table__message">Waiting for payment <img class="logo__img" src="images/loading.gif" alt="logo"> </div>
+                                <div class="block__table__message">Waiting for payment <img class="logo__img" :src="`images/loading.gif`" alt="logo"> </div>
                             </div>
                         </div>
                         <button type="submit" @click="bem()" class="block__btn">I paid</button>
@@ -93,7 +93,7 @@
         <div class="container">
             <div class="footer__inner">
                 <a class="footer__logo logo" href="index.html">
-                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                    <img class="logo__img" :src="`images/logo.svg`" alt="logo">
                 </a>
                 <p class="footer__copy">
                     © 2023. Proper Trade. All rights reserved

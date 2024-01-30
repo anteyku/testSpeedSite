@@ -58,44 +58,44 @@
                                 <div class="main-screen__icons main-screen-icons">
                                     <div class="main-screen-icons__inner" data-aos="fade">
                                         <div class="main-screen-icons__wrapper">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-1.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-1.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-2.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-2.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-3.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-3.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-4.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-4.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-5.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-5.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-6.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-6.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-7.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-7.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-8.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-8.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-9.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-9.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__img" src="images/main-screen-icon-10.svg"
+                                            <img class="main-screen-icons__img" :src="`images/main-screen-icon-10.svg`"
                                                 alt="icon">
                                         </div>
     
                                         <div class="main-screen-icons__wrapper">
-                                            <img class="main-screen-icons__glare" src="images/main-screen-glare-1.svg"
+                                            <img class="main-screen-icons__glare" :src="`images/main-screen-glare-1.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__glare" src="images/main-screen-glare-2.svg"
+                                            <img class="main-screen-icons__glare" :src="`images/main-screen-glare-2.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__glare" src="images/main-screen-glare-3.svg"
+                                            <img class="main-screen-icons__glare" :src="`images/main-screen-glare-3.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__glare" src="images/main-screen-glare-4.svg"
+                                            <img class="main-screen-icons__glare" :src="`images/main-screen-glare-4.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__glare" src="images/main-screen-glare-5.svg"
+                                            <img class="main-screen-icons__glare" :src="`images/main-screen-glare-5.svg`"
                                                 alt="icon">
-                                            <img class="main-screen-icons__glare" src="images/main-screen-glare-6.svg"
+                                            <img class="main-screen-icons__glare" :src="`images/main-screen-glare-6.svg`"
                                                 alt="icon">
                                         </div>
     
-                                        <img class="main-screen-icons__image" src="images/main-screen-big-icon.svg"
+                                        <img class="main-screen-icons__image" :src="`images/main-screen-big-icon.svg`"
                                             alt="icon">
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                                 <div class="steps__body steps-body">
                                     <div class="steps-body__item steps-body-item" data-aos="flip-up">
                                         <div class="steps-body-item__img">
-                                            <img class="steps-body-item__img-image" src="images/steps-icon-1.svg" alt="img">
+                                            <img class="steps-body-item__img-image" :src="`images/steps-icon-1.svg`" alt="img">
                                         </div>
                                         <div class="steps-body-item__box">
                                             <h3 class="steps-body-item__box-title">
@@ -134,7 +134,7 @@
                                     </div>
                                     <div class="steps-body__item steps-body-item" data-aos="flip-up">
                                         <div class="steps-body-item__img">
-                                            <img class="steps-body-item__img-image" src="images/steps-icon-2.svg" alt="img">
+                                            <img class="steps-body-item__img-image" :src="`images/steps-icon-2.svg`" alt="img">
                                         </div>
                                         <div class="steps-body-item__box">
                                             <h3 class="steps-body-item__box-title">
@@ -148,7 +148,7 @@
                                     </div>
                                     <div class="steps-body__item steps-body-item" data-aos="flip-up">
                                         <div class="steps-body-item__img">
-                                            <img class="steps-body-item__img-image" src="images/steps-icon-3.svg" alt="img">
+                                            <img class="steps-body-item__img-image" :src="`images/steps-icon-3.svg`" alt="img">
                                         </div>
                                         <div class="steps-body-item__box">
                                             <h3 class="steps-body-item__box-title">
@@ -173,31 +173,31 @@
                                 <div class="swiper-wrapper">
                                     <div class="partners-swiper__slide partners-slide swiper-slide">
                                         <div class="partners-slide__img">
-                                            <img class="partners-slide__img-image" src="images/partners-swiper-1.svg"
+                                            <img class="partners-slide__img-image" :src="`images/partners-swiper-1.svg`"
                                                 alt="icon">
                                         </div>
                                     </div>
                                     <div class="partners-swiper__slide partners-slide swiper-slide">
                                         <div class="partners-slide__img">
-                                            <img class="partners-slide__img-image" src="images/partners-swiper-2.svg"
+                                            <img class="partners-slide__img-image" :src="`images/partners-swiper-2.svg`"
                                                 alt="icon">
                                         </div>
                                     </div>
                                     <div class="partners-swiper__slide partners-slide swiper-slide">
                                         <div class="partners-slide__img">
-                                            <img class="partners-slide__img-image" src="images/partners-swiper-3.svg"
+                                            <img class="partners-slide__img-image" :src="`images/partners-swiper-3.svg`"
                                                 alt="icon">
                                         </div>
                                     </div>
                                     <div class="partners-swiper__slide partners-slide swiper-slide">
                                         <div class="partners-slide__img">
-                                            <img class="partners-slide__img-image" src="images/partners-swiper-4.svg"
+                                            <img class="partners-slide__img-image" :src="`images/partners-swiper-4.svg`"
                                                 alt="icon">
                                         </div>
                                     </div>
                                     <div class="partners-swiper__slide partners-slide swiper-slide">
                                         <div class="partners-slide__img">
-                                            <img class="partners-slide__img-image" src="images/partners-swiper-5.svg"
+                                            <img class="partners-slide__img-image" :src="`images/partners-swiper-5.svg`"
                                                 alt="icon">
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Emilia Jameson
@@ -377,7 +377,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Nicholas Miller
@@ -446,7 +446,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Isabel Baker
@@ -514,7 +514,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Alexander Harris
@@ -582,7 +582,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Sophia Thompson
@@ -641,7 +641,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Lucas Mitchell
@@ -709,7 +709,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Anastasia Carter
@@ -778,7 +778,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         David Morrison
@@ -847,7 +847,7 @@
                                                 <div class="testimonials-item__user testimonials-item-user">
                                                     <div class="testimonials-item-user__img">
                                                         <img class="testimonials-item-user__img-image"
-                                                            src="images/testimonials-img-1.png" alt="img">
+                                                            :src="`images/testimonials-img-1.png`" alt="img">
                                                     </div>
                                                     <p class="testimonials-item-user__name">
                                                         Chloe Walker
@@ -916,7 +916,7 @@
                         </h2>
                         <div class="container">
                             <div class="video__inner" data-aos="zoom-in">
-                                <video class="video__screen" src="videos/video.mp4" controls muted></video>
+                                <video class="video__screen" :src="`videos/video.mp4`" controls muted></video>
                             </div>
                         </div>
                     </section>
@@ -1154,7 +1154,7 @@
                     <div class="container">
                         <div class="footer__inner">
                             <a class="footer__logo logo" href="index.html">
-                                <img class="logo__img" src="images/logo.svg" alt="logo">
+                                <img class="logo__img" :src="`images/logo.svg`" alt="logo">
                             </a>
                             <p class="footer__copy">
                                 ⓒ 2023. Proper Trade All rights reserved

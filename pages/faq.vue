@@ -218,7 +218,7 @@
                 <div class="container">
                     <div class="footer__inner">
                         <a class="footer__logo logo" href="index.html">
-                            <img class="logo__img" src="images/logo.svg" alt="logo">
+                            <img class="logo__img" :src="`images/logo.svg`" alt="logo">
                         </a>
                         <p class="footer__copy">
                             © 2023. Proper Trade. All rights reserved

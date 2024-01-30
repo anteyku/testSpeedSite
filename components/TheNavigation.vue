@@ -4,7 +4,7 @@
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="/">
-                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                    <img class="logo__img" :src="`images/logo.svg`" alt="logo">
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">

@@ -128,7 +128,7 @@
                     </h2>
                     <div class="container">
                         <div class="video__inner" data-aos="zoom-in">
-                            <video class="video__screen" src="videos/video.mp4" controls muted></video>
+                            <video class="video__screen" :src="`videos/video.mp4`" controls muted></video>
                         </div>
                     </div>
                 </section>
@@ -138,7 +138,7 @@
                     </h2>
                     <div class="container">
                         <div class="about-section__inner" data-aos="zoom-in">
-                            <img class="about-section__img" src="images/about-section-img.jpg" alt="img">
+                            <img class="about-section__img" :src="`images/about-section-img.jpg`" alt="img">
                         </div>
                     </div>
                 </section>
@@ -247,7 +247,7 @@
                 <div class="container">
                     <div class="footer__inner">
                         <a class="footer__logo logo" href="index.html">
-                            <img class="logo__img" src="images/logo.svg" alt="logo">
+                            <img class="logo__img" :src="`images/logo.svg`" alt="logo">
                         </a>
                         <p class="footer__copy">
                             © 2023. Proper Trade. All rights reserved

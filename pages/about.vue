@@ -25,7 +25,7 @@
                                 </div>
                             </div>
                             <div class="section-top__backgrounds">
-                                <img class="section-top__backgrounds-img" src="images/section-top-bg.svg" alt="bg">
+                                <img class="section-top__backgrounds-img" :src="`images/section-top-bg.svg`" alt="bg">
                                 <svg width="61" height="60" viewBox="0 0 61 60" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -41,7 +41,7 @@
                         <div class="advantages__inner">
                             <div class="advantages__item advantages-item" data-aos="flip-up">
                                 <div class="advantages-item__icon">
-                                    <img class="advantages-item__icon-img" src="images/advantages-icon-1.svg"
+                                    <img class="advantages-item__icon-img" :src="`images/advantages-icon-1.svg`"
                                         alt="icon">
                                 </div>
                                 <h3 class="advantages-item__title">
@@ -54,7 +54,7 @@
                             </div>
                             <div class="advantages__item advantages-item" data-aos="flip-up">
                                 <div class="advantages-item__icon">
-                                    <img class="advantages-item__icon-img" src="images/advantages-icon-2.svg"
+                                    <img class="advantages-item__icon-img" :src="`images/advantages-icon-2.svg`"
                                         alt="icon">
                                 </div>
                                 <h3 class="advantages-item__title">
@@ -67,7 +67,7 @@
                             </div>
                             <div class="advantages__item advantages-item" data-aos="flip-up">
                                 <div class="advantages-item__icon">
-                                    <img class="advantages-item__icon-img" src="images/advantages-icon-3.svg"
+                                    <img class="advantages-item__icon-img" :src="`images/advantages-icon-3.svg`"
                                         alt="icon">
                                 </div>
                                 <h3 class="advantages-item__title">
@@ -78,7 +78,7 @@
                                 </p>
                             </div>
                             <div class="advantages__backgrounds">
-                                <img class="advantages__backgrounds-img" src="images/advantages-bg.svg" alt="bg">
+                                <img class="advantages__backgrounds-img" :src="`images/advantages-bg.svg`" alt="bg">
                                 <svg width="54" height="50" viewBox="0 0 54 50" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -99,7 +99,7 @@
                     <div class="container">
                         <div class="about__inner">
                             <div class="about__img" data-aos="zoom-in">
-                                <img class="about__img-image" src="images/about-img-1.png" alt="img">
+                                <img class="about__img-image" :src="`images/about-img-1.png`" alt="img">
                             </div>
                             <div class="about__body about-body">
                                 <h2 class="about-body__title" data-aos="fade-left">
@@ -111,7 +111,7 @@
                                 </p>
                             </div>
                             <div class="about__backgrounds">
-                                <img class="about__backgrounds-img" src="images/about-bg-1.svg" alt="bg">
+                                <img class="about__backgrounds-img" :src="`images/about-bg-1.svg`" alt="bg">
 
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                                 </div>
                             </div>
                             <div class="about__img" data-aos="zoom-in">
-                                <img class="about__img-image" src="images/about-img-2.png" alt="img">
+                                <img class="about__img-image" :src="`images/about-img-2.png`" alt="img">
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                 <div class="container">
                     <div class="footer__inner">
                         <a class="footer__logo logo" href="index.html">
-                            <img class="logo__img" src="images/logo.svg" alt="logo">
+                            <img class="logo__img" :src="`images/logo.svg`" alt="logo">
                         </a>
                         <p class="footer__copy">
                             © 2023. Proper Trade. All rights reserved
