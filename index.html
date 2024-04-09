@@ -34,6 +34,8 @@
     <div class="container">
       привет
       <div id="hm1"></div>
+
+      <canvas id="canvas" width="200" height="100"></canvas>
     </div>
    
      
@@ -51,7 +53,26 @@
 <script>
 
 
- 
+    // Получаем элемент canvas
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+    // Создаем уникальный текст для рисования на canvas
+    var text = 'Canvas Fingerprinting Example';
+
+    // Устанавливаем шрифт и размер текста
+    ctx.font = '20px Arial';
+
+    // Рисуем текст на canvas
+    ctx.fillText(text, 10, 50);
+
+    // Получаем данные изображения на canvas в формате base64
+    var imageData = canvas.toDataURL();
+
+    // Отображаем данные изображения в консоли (в реальном использовании эти данные могут отправляться на сервер)
+    console.log('Canvas fingerprint:', imageData);
+
+    document.querySelector(`#hm1`).innerText = imageData
        
 </script>
 
